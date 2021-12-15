@@ -1,0 +1,2 @@
+// Week number
+DATEPART('week',[US Release Date])

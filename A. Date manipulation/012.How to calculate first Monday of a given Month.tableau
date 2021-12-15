@@ -1,0 +1,7 @@
+// First Monday of Month
+DATE(
+    DATETRUNC('week',
+        DATETRUNC('month',[US Release Date])+6,
+        'Monday'
+    )
+)

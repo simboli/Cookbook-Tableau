@@ -1,0 +1,6 @@
+// First day of next 2 Months
+DATE(
+    DATEADD('month', 2,
+        DATETRUNC('month', [US Release Date])
+    )
+)

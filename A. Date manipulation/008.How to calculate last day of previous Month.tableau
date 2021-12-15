@@ -1,0 +1,6 @@
+// Last day of previous Month
+DATE(
+    DATEADD('day', -1,
+        DATETRUNC('month', [US Release Date])
+    )
+)

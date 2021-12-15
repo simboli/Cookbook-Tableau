@@ -1,0 +1,2 @@
+// Max date overall
+{ FIXED : MAX([US Release Date])}

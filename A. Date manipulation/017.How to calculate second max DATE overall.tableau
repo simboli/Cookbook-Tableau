@@ -1,0 +1,6 @@
+// Second max date overall
+{ FIXED : MAX(
+    IF [US Release Date]={ FIXED : MAX([US Release Date])}
+    THEN NULL
+    ELSE [US Release Date] END
+)}

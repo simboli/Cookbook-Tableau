@@ -1,0 +1,8 @@
+// Number of days current Month
+DAY(
+    DATEADD('day', -1,
+        DATEADD('month', 1,
+            DATETRUNC('month', [US Release Date])
+        )
+    )
+)

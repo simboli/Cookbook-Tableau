@@ -1,0 +1,6 @@
+// Number of days previous Month
+DAY(
+    DATEADD('day', -1,
+        DATETRUNC('month', [US Release Date])
+    )
+)
